@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Link to="/">
+        <Link to="/ToysRLife">
           <h2>Toys R Life</h2>
         </Link>
       </div>
@@ -22,7 +22,7 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/" onClick={(e) => e.preventDefault()} className={styles.a}>
+              <Link to="/ToysRLife" onClick={(e) => e.preventDefault()} className={styles.a}>
                 Categories
               </Link>
               <ul className={styles.subMenu}>{result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} />) : <div>{result.error}</div>}</ul>

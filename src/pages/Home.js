@@ -3,7 +3,7 @@ import Card from "components/Card";
 import Title from "components/Title";
 import useMakeRequest from "hooks/useMakeRequest";
 const Home = () => {
-  const result = useMakeRequest("https://fakestoreapi.com/products/");
+  const result = useMakeRequest("https://fakestoreapi.com/products/all");
 
   if (!result.data) {
     if (result.error) {

@@ -33,13 +33,13 @@ const App = () => {
               <Route path="/ToysRLife" exact>
                 <Home />
               </Route>
-              <Route path="/product/:slug">
+              <Route path="/ToysRLife/product/:slug">
                 <Detail />
               </Route>
-              <Route path="/category/:slug">
+              <Route path="/ToysRLife/category/:slug">
                 <Category />
               </Route>
-              <Route path="/contact/">
+              <Route path="/ToysRLife/contact/">
                 <Contact />
               </Route>
             </Switch>

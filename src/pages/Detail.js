@@ -7,13 +7,15 @@ import useMakeRequest from "hooks/useMakeRequest";
 import { useContext } from "react";
 import { useParams, Link } from "react-router-dom";
 import styles from "styles/Detail.module.scss";
+import {CARDS} from "data/cards.js";
 
 const Detail = () => {
   const { slug } = useParams();
   let id = slug.split("-");
-  id = id[id.length - 1];
-
+  // id = id[id.length - 1];
+  // const result = CARDS[id];
   const result = useMakeRequest(`https://fakestoreapi.com/products/${id}`);
+  console.log(result);
   const { basketItems } = useContext(BasketContext);
 
   const setStars = (rate) => {
@@ -53,14 +55,14 @@ const Detail = () => {
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles.img}>
-              <img src={result.data.image} alt="" />
+              <img src={(result.data.img1==="")?("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/florence.jpg"):(process.env.PUBLIC_URL+"/"+result.data.img1)} alt="" />
             </div>
             <div className={styles.info}>
               <div className={styles.title}>
                 <Title txt={result.data.title} transform="uppercase" size={20} />
               </div>
               <div className={styles.category}>
-                <Link to={`/category/${result.data.category}`} style={{ color: "#0E3EDA" }}>
+                <Link to={`/ToysRLife/category/${result.data.category}`} style={{ color: "#0E3EDA" }}>
                   {result.data.category}
                 </Link>
               </div>
