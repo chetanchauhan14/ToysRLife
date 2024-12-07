@@ -4,7 +4,7 @@ import AddToBasketBtn from "components/AddToBasketBtn";
 const Card = ({ product }) => {
   return (
     <div className="productcard">
-    <div class="cardfan">
+    <div className="cardfan">
       <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/florence.jpg" alt="Photograph of Florence, Italy" id="roma" />
       <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/roma.jpg" alt="Photograph of an ancient aqueduct, Italy" id="aqueduct" />
       <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/bike.jpg" alt="Photograph of a bike on a Roman Street" id="bike" />

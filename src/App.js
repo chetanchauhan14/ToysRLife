@@ -30,7 +30,7 @@ const App = () => {
           <Header />
           <main className={styles.main}>
             <Switch>
-              <Route path="/" exact>
+              <Route path="/ToysRLife" exact>
                 <Home />
               </Route>
               <Route path="/product/:slug">
