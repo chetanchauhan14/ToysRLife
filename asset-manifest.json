@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chetanchauhan14/ToysRLife/static/css/main.d3e6876d.css",
-    "main.js": "/chetanchauhan14/ToysRLife/static/js/main.95b99d1a.js",
-    "static/js/787.b899e486.chunk.js": "/chetanchauhan14/ToysRLife/static/js/787.b899e486.chunk.js",
-    "static/media/shopBG.jpg": "/chetanchauhan14/ToysRLife/static/media/shopBG.2607f639fdf2a5bd084f.jpg",
-    "static/media/empty_cart.svg": "/chetanchauhan14/ToysRLife/static/media/empty_cart.ffa113266186702caa5a87ad687e8ea0.svg",
-    "index.html": "/chetanchauhan14/ToysRLife/index.html",
-    "main.d3e6876d.css.map": "/chetanchauhan14/ToysRLife/static/css/main.d3e6876d.css.map",
-    "main.95b99d1a.js.map": "/chetanchauhan14/ToysRLife/static/js/main.95b99d1a.js.map",
-    "787.b899e486.chunk.js.map": "/chetanchauhan14/ToysRLife/static/js/787.b899e486.chunk.js.map"
+    "main.css": "/ToysRLife/static/css/main.d3e6876d.css",
+    "main.js": "/ToysRLife/static/js/main.89cca554.js",
+    "static/js/787.b899e486.chunk.js": "/ToysRLife/static/js/787.b899e486.chunk.js",
+    "static/media/shopBG.jpg": "/ToysRLife/static/media/shopBG.2607f639fdf2a5bd084f.jpg",
+    "static/media/empty_cart.svg": "/ToysRLife/static/media/empty_cart.ffa113266186702caa5a87ad687e8ea0.svg",
+    "index.html": "/ToysRLife/index.html",
+    "main.d3e6876d.css.map": "/ToysRLife/static/css/main.d3e6876d.css.map",
+    "main.89cca554.js.map": "/ToysRLife/static/js/main.89cca554.js.map",
+    "787.b899e486.chunk.js.map": "/ToysRLife/static/js/787.b899e486.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e6876d.css",
-    "static/js/main.95b99d1a.js"
+    "static/js/main.89cca554.js"
   ]
 }
