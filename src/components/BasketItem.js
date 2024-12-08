@@ -6,7 +6,8 @@ import { BasketContext } from "context/BasketContext";
 import { useContext } from "react";
 
 const BasketItem = ({ data }) => {
-  const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
+  const { basketItems, setBasketItems, setBasketTotal } =
+    useContext(BasketContext);
 
   const removeItemFromBasket = () => {
     let arr = [...basketItems],
@@ -30,7 +31,10 @@ const BasketItem = ({ data }) => {
         <div className={styles.priceContainer}>
           <small className={styles.singlePrice}>{data.price.toFixed(2)}</small>
           <small className={styles.quantityN}>{data.quantity}</small>
-          <small className={styles.totalPrice}> {`${(data.price * data.quantity).toFixed(2)}`} Rs</small>
+          <small className={styles.totalPrice}>
+            {" "}
+            {`${(data.price * data.quantity).toFixed(2)}`} Rs
+          </small>
         </div>
         <Quantity data={data} />
       </div>
@@ -44,4 +48,3 @@ const BasketItem = ({ data }) => {
 };
 
 export default BasketItem;
-

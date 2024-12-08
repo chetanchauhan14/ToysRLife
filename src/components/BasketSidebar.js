@@ -9,14 +9,24 @@ import { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const BasketSidebar = () => {
-  const { basketIsOpen, setBasketIsOpen, basketItems, basketTotal: _basketTotal } = useContext(BasketContext);
+  const {
+    basketIsOpen,
+    setBasketIsOpen,
+    basketItems,
+    basketTotal: _basketTotal,
+  } = useContext(BasketContext);
   const container = useRef();
 
   return (
     <div
-      className={clsx(styles.sidebarContainer, basketIsOpen ? styles.show : styles.hide)}
+      className={clsx(
+        styles.sidebarContainer,
+        basketIsOpen ? styles.show : styles.hide
+      )}
       ref={container}
-      onClick={(event) => event.target === container.current && setBasketIsOpen(false)}
+      onClick={(event) =>
+        event.target === container.current && setBasketIsOpen(false)
+      }
     >
       <div className={styles.sidebar}>
         <div className={styles.header}>
@@ -24,7 +34,10 @@ const BasketSidebar = () => {
             <Title txt="your basket" size={20} transform="uppercase" />
             {<small>your basket has got {basketItems.length} items</small>}
           </div>
-          <button className={styles.close} onClick={() => setBasketIsOpen(false)}>
+          <button
+            className={styles.close}
+            onClick={() => setBasketIsOpen(false)}
+          >
             <GetIcon icon="BsX" size={30} />
           </button>
         </div>
@@ -46,9 +59,12 @@ const BasketSidebar = () => {
                   <span>{_basketTotal.toFixed(2)}</span>
                 </div>
               </div>
-              <Link to={`/ToysRLife/contact/`} onClick={(e) => {                  
+              <Link
+                to={`/ToysRLife/contact/`}
+                onClick={(e) => {
                   setBasketIsOpen((oldState) => !oldState);
-                }}>
+                }}
+              >
                 <button type="button" className={styles.confirmBtn}>
                   Confirm the basket
                 </button>
@@ -67,4 +83,3 @@ const BasketSidebar = () => {
 };
 
 export default BasketSidebar;
-

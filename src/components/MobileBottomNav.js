@@ -10,7 +10,12 @@ const MobileBottomNav = () => {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className={clsx(styles.bottomNav, navIsOpen ? styles.fullHeight : styles.removeHeight)}>
+    <div
+      className={clsx(
+        styles.bottomNav,
+        navIsOpen ? styles.fullHeight : styles.removeHeight
+      )}
+    >
       <div className={styles.content}>
         {(() => {
           switch (currentComponent) {

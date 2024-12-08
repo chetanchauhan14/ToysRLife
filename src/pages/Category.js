@@ -10,7 +10,14 @@ const Category = () => {
 
   if (!result.data) {
     return (
-      <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "30px" }}>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "30px",
+        }}
+      >
         <Title txt="Loading..." size={25} transform="uppercase" />
       </div>
     );
@@ -21,15 +28,28 @@ const Category = () => {
           <div className={styles.row}>
             {result.data && (
               <div className={styles.title}>
-                <Title txt={slug} color="#171717" size={22} transform="uppercase" />
+                <Title
+                  txt={slug}
+                  color="#171717"
+                  size={22}
+                  transform="uppercase"
+                />
               </div>
             )}
           </div>
           <div className={styles.row}>
             {result.data ? (
-              result.data.map((product, key) => <Card product={product} key={key} />)
+              result.data.map((product, key) => (
+                <Card product={product} key={key} />
+              ))
             ) : (
-              <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
                 <Title txt={result.error} size={25} transform="uppercase" />
               </div>
             )}

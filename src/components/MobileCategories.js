@@ -8,7 +8,13 @@ const MobileCategories = ({ setNavIsOpen }) => {
   return (
     <div className={styles.mobileCategories}>
       <ul className={styles.mobileCategoriesMenu}>
-        {result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} setNavIsOpen={setNavIsOpen} />) : <div>{result.error}</div>}
+        {result.data ? (
+          result.data.map((cat, index) => (
+            <CategoryItem data={cat} key={index} setNavIsOpen={setNavIsOpen} />
+          ))
+        ) : (
+          <div>{result.error}</div>
+        )}
       </ul>
     </div>
   );
