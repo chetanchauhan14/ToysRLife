@@ -14,7 +14,7 @@ In this assignment, you will create a basic e-commerce application using Next.js
    - Search Page: Include a search bar where users can input the name of a product. On form submission, display a list of search results (products) fetched from the API endpoint.
    - Product Details Page: When a user clicks on a product from the search results or product list, they should be redirected to a page that displays detailed information about the product, including the product image, name, price, and description.
 
-You can fetch data using the following API endpoint: https://fakestoreapi.com/
+You can update data in file data/cards.js
 
 ## Requirements:
 
@@ -37,15 +37,14 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 
 ## Submission Guidelines:
 
-1. Fork this GitHub repository [Assignment Repo](https://github.com/internsathi/frontend-assignment) to your own GitHub account.
+1. Fork this GitHub repository [Assignment Repo](https://github.com/) to your own GitHub account.
 2. Commit your code regularly and push the changes to your forked repository.
 3. Do not create a pull request; just submit your forked repository.
 4. Provide a DOCS.md file with all the technologies used and how to run the program locally.
 5. Once you have completed the assignment, share the repository URL with us via the [submission form](https://forms.gle/r5ENHoDewE5swP9x7).
 
-6. Join this discord server to get an update: [Join Here ](https://discord.gg/5qbGZP7V8g)
 
-- Submission Deadline: Task Submission: 2023/07/22 11:30 AM
+- Submission Deadline: Task Submission: 2024/12/08 11:30 AM
 
 Check out the discussion section of this repo to ask any related queries or doubts.
 Note: The assignment is intended to help you grasp basic concepts. Don't hesitate to ask for any clarifications in the discussion section of this repo. Good luck with your assignment!
@@ -74,37 +73,9 @@ You may also see any lint errors in the console.
 
 ### Landing Page
 
-![](screenshots/home.png)
+![](screenshots/homepage.png)
 
-
-
-
-
-### Category Page
-
-![](screenshots/categories.png)
-
-on click categories it shows 4 properties thhese are
-### Mens Clothing
-![](screenshots/mens.png)
-### Womens Clothing
-![](screenshots/womens.png)
-### Jewelery
-![](screenshots/jwelery.png)
-### Electronics
-![](screenshots/electronics.png)
-### BASKET
-on click basket without add any item 
-### Empty Basket
-![](screenshots/basketempty.png)
-if you add any item
-### Basket With Item
-![](screenshots/basket.png)
 
 ## Contact
-Pankaj Bist- pankajbist000@gmail.com
-
-Project Link: [https://github.com/](https://github.com/)
-
 
 ### Thank You 
