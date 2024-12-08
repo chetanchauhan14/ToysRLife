@@ -6,6 +6,7 @@ import clsx from "clsx";
 import BasketItem from "components/BasketItem";
 import { BasketContext } from "context/BasketContext";
 import { useContext, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const BasketSidebar = () => {
   const { basketIsOpen, setBasketIsOpen, basketItems, basketTotal: _basketTotal } = useContext(BasketContext);
@@ -45,9 +46,13 @@ const BasketSidebar = () => {
                   <span>{_basketTotal.toFixed(2)}</span>
                 </div>
               </div>
-              <button type="button" className={styles.confirmBtn}>
-                Confirm the basket
-              </button>
+              <Link to={`/ToysRLife/contact/`} onClick={(e) => {                  
+                  setBasketIsOpen((oldState) => !oldState);
+                }}>
+                <button type="button" className={styles.confirmBtn}>
+                  Confirm the basket
+                </button>
+              </Link>
             </div>
           </>
         ) : (

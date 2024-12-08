@@ -19,7 +19,7 @@ const AddToBasketBtn = ({ data: product }) => {
         {
           id: product.id,
           title: product.title,
-          image: product.image,
+          image: product.img3,
           price: product.price,
           quantity: currentQuantity,
         },

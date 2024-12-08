@@ -1,7 +1,6 @@
 import styles from "styles/Card3.scss"
 import AddToBasketBtn from "components/AddToBasketBtn";
 import { Link } from "react-router-dom";
-import slugify from "slugify";
 
 const Card = ({ product }) => {
   return (
