@@ -29,7 +29,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/ToysRLife/"
                 className={clsx(styles.basketBtn, styles.a)}
                 onClick={(e) => {
                   e.preventDefault();

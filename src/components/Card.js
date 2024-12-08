@@ -6,7 +6,7 @@ import slugify from "slugify";
 const Card = ({ product }) => {
   return (
     <div className="productcard">
-    <Link to={`product/${product.id}`} >
+    <Link to={`/ToysRLife/product/${product.id}`} >
     <div className="cardfan">
       <img src={(product.img1==="")?("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/florence.jpg"):(process.env.PUBLIC_URL+"/"+product.img1)} alt={product.title} id="roma" />
       <img src={(product.img2==="")?("//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/roma.jpg"):(process.env.PUBLIC_URL+"/"+product.img2)} alt={product.title} id="aqueduct" />

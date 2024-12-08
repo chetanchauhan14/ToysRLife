@@ -14,26 +14,28 @@ const useMakeRequest = (endpoint) => {
         console.log(endpoint)
         if (endpoint.includes("categories"))
         {
-            console.log("category")
-            const str = "[\"hairbands\", \"hairclips\", \"kids toys\", \"art and craft\"]";
-            json = JSON.parse(str);
+            console.log("categories")
+            let categories = [...new Set(CARDS.map(item=>item.category))];
+            json = categories;
             console.log(json)
-            console.log("category done")
+            console.log("categories done")
         } else if (endpoint.includes("all")) {
+          console.log("product all")
             //const str = CARDS;
             json = CARDS;
-            console.log("product done")
+            console.log("product all done")
             //json = await response.json();
         } else if (endpoint.includes("category")) {
-            console.log("category");
-            const categories=endpoint.split("/");
-            console.log(categories);
-            const category=categories[categories.length-1];
-            console.log(category);
-            const filtered=CARDS.filter(item=>(item.category===category));
-            json = filtered;
-            console.log("product done")
+          console.log("category");
+          const categories=endpoint.split("/");
+          console.log(categories);
+          const category=categories[categories.length-1];
+          console.log(category);
+          const filtered=CARDS.filter(item=>(item.category===category));
+          json = filtered;
+            console.log("category done")
       } else {
+        console.log("else");
           json=CARDS[0];
         }
         
