@@ -184,4 +184,126 @@ export const CARDS =
     "img2":"",
     "img3":"",
     "badge":"Hot"
-  } ]
+  } 
+  ,
+  { "id":19,
+    "title": "Nail Art Kit for Girls With Tools and Glitters",
+    "price":95,
+    "category": "Art and craft",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":20,
+    "title": "Avengers/Unicorn/Mermaid Slap Bracelets Silicone Wristband",
+    "price":125,
+    "category": "kids toys",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":21,
+    "title": "Tablets",
+    "price":145,
+    "category": "educational toys",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+  ,
+  { "id":19,
+    "title": "",
+    "price":250,
+    "category": "",
+    "mrp":450,
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "badge":"Hot"
+  } 
+]
