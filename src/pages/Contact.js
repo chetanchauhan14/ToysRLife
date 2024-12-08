@@ -14,12 +14,10 @@ const Contact = () => {
                 <div className="form-txt">
                     <h4>INFORMATION</h4>
                     <h1>Contact Us</h1>
-                    <span>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</span>
-                    <h3>USA</h3>
-                    <p>195 E Parker Square Dr, Parker, CO 801<br/>+43 982-314-0958</p>
+                    <span>Thanks for showing us your interest, one of our executive will reach out to you.</span>
+                    <h3>Please submit your details.</h3>
+                    <p>With Love</p>
                     <h3>India</h3>
-                    <p>HW95+C9C, Lorem ipsum dolor sit.<br/>411014</p>
                 </div>
                 <div className="form-details">
                     <input type="text" name="name" id="name" placeholder="Name" required />
