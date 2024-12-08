@@ -20,7 +20,6 @@ import useMobileDetect from "hooks/useMobileDetect";
 // CONTEXT
 import BasketContextProvider from "context/BasketContext";
 
-
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -30,7 +29,12 @@ const App = () => {
   return (
     <Router>
       <BasketContextProvider>
-        <div className={clsx(device.type === "mobile" && styles.paddingForMobile, styles.container)}>
+        <div
+          className={clsx(
+            device.type === "mobile" && styles.paddingForMobile,
+            styles.container
+          )}
+        >
           <ToastContainer position="top-center" autoClose={1000} />
           <Header />
           <main className={styles.main}>
