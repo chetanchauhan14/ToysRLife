@@ -5,8 +5,9 @@ import { BasketContext } from "context/BasketContext";
 import { useContext } from "react";
 import GetIcon from "components/GetIcon";
 import Title from "components/Title";
+import { Link } from "react-router-dom";
 
-const MobileBasket = () => {
+const MobileBasket = ({setNavIsOpen}) => {
   const { basketItems, basketTotal: _basketTotal } = useContext(BasketContext);
 
   return (
@@ -27,9 +28,13 @@ const MobileBasket = () => {
                 <span>{_basketTotal.toFixed(2)}</span>
               </div>
             </div>
+            <Link to={`/ToysRLife/contact/`} onClick={(e) => {                  
+                  setNavIsOpen(false);
+                }}>
             <button type="button" className={styles.confirmBtn}>
               Confirm the basket
             </button>
+            </Link>
           </div>
         </>
       ) : (

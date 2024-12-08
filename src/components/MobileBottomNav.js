@@ -17,7 +17,7 @@ const MobileBottomNav = () => {
             case "categories":
               return <MobileCategories setNavIsOpen={setNavIsOpen} />;
             case "basket":
-              return <MobileBasket />;
+              return <MobileBasket setNavIsOpen={setNavIsOpen} />;
             default:
               return <div></div>;
           }
