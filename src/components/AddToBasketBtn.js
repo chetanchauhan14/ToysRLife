@@ -2,17 +2,21 @@ import styles from "styles/AddToBasketBtn.module.scss";
 import { BasketContext } from "context/BasketContext";
 import { useContext } from "react";
 import GetIcon from "components/GetIcon";
+import { toast } from "react-toastify";
 
 const AddToBasketBtn = ({ data: product }) => {
   const { basketItems, setBasketItems, setBasketTotal, currentQuantity } = useContext(BasketContext);
+  toast.configure();
 
   const addToBasket = (product) => {
     let arr = [...basketItems];
+    arr.image=product.img3;
     let filtered = basketItems.filter((item) => item.id === product.id);
     if (filtered.length > 0) {
       filtered[0].quantity += 1;
       arr[arr.indexOf(filtered[0])] = filtered[0];
       setBasketItems(arr);
+      toast(product.title + " added to cart!");
     } else {
       setBasketItems((oldState) => [
         ...oldState,
@@ -24,6 +28,7 @@ const AddToBasketBtn = ({ data: product }) => {
           quantity: currentQuantity,
         },
       ]);
+      toast(product.title + " added to cart!");
     }
 
     setBasketTotal((oldTotal) => (oldTotal += product.price * (currentQuantity || 1)));

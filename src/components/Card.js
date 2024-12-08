@@ -3,6 +3,7 @@ import AddToBasketBtn from "components/AddToBasketBtn";
 import { Link } from "react-router-dom";
 
 const Card = ({ product }) => {
+
   return (
     <div className="productcard">
     <Link to={`/ToysRLife/product/${product.id}`} >
