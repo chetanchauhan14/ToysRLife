@@ -35,8 +35,11 @@ const useMakeRequest = (endpoint) => {
           json = filtered;
             console.log("category done")
       } else {
-        console.log("else");
-          json=CARDS[0];
+          console.log("else");
+          const args=endpoint.split("/");
+          console.log(args);
+          const product=args[args.length-1];
+          json=CARDS[product-1];
         }
         
         setResult((old) => ({ ...old, data: json }));

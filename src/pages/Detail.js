@@ -66,9 +66,11 @@ const Detail = () => {
                   {result.data.category}
                 </Link>
               </div>
-              <div className={styles.rating}>
-                <div className={styles.stars}>{setStars(result.data.rating.rate)}</div>
-              </div>
+              {(result.data.rating)?
+                <div className={styles.rating}>
+                  <div className={styles.stars}>{setStars(result.data.rating.rate)}</div>
+                </div>:<></>
+              }
               <div className={styles.price}>
                 <p>
                   {result.data.price.toFixed(2)} <small>TRY</small>

@@ -1,7 +1,7 @@
 export const CARDS = 
 [
   { "id":1,
-    "title": "sequins glitter hairbandsss",
+    "title": "sequins glitter hairband",
     "price":150,
     "category": "hairbands",
     "mrp":450,
