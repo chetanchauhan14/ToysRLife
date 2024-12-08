@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/ToysRLife/static/css/main.2ed13803.css",
-    "main.js": "/ToysRLife/static/js/main.9146cde6.js",
-    "static/js/787.b899e486.chunk.js": "/ToysRLife/static/js/787.b899e486.chunk.js",
+    "main.css": "/ToysRLife/static/css/main.8ca9ba8e.css",
+    "main.js": "/ToysRLife/static/js/main.c93d1cdf.js",
+    "static/js/27.d5ff8d20.chunk.js": "/ToysRLife/static/js/27.d5ff8d20.chunk.js",
     "static/media/shopBG.jpg": "/ToysRLife/static/media/shopBG.2607f639fdf2a5bd084f.jpg",
     "static/media/empty_cart.svg": "/ToysRLife/static/media/empty_cart.ffa113266186702caa5a87ad687e8ea0.svg",
-    "index.html": "/ToysRLife/index.html",
-    "main.2ed13803.css.map": "/ToysRLife/static/css/main.2ed13803.css.map",
-    "main.9146cde6.js.map": "/ToysRLife/static/js/main.9146cde6.js.map",
-    "787.b899e486.chunk.js.map": "/ToysRLife/static/js/787.b899e486.chunk.js.map"
+    "index.html": "/ToysRLife/index.html"
   },
   "entrypoints": [
-    "static/css/main.2ed13803.css",
-    "static/js/main.9146cde6.js"
+    "static/css/main.8ca9ba8e.css",
+    "static/js/main.c93d1cdf.js"
   ]
 }
