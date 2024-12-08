@@ -5,7 +5,13 @@ import { useContext, useRef, useEffect } from "react";
 
 const Quantity = ({ data }) => {
   const inp = useRef("inp");
-  const { basketItems, setBasketItems, setBasketTotal, currentQuantity, setCurrentQuantity } = useContext(BasketContext);
+  const {
+    basketItems,
+    setBasketItems,
+    setBasketTotal,
+    currentQuantity,
+    setCurrentQuantity,
+  } = useContext(BasketContext);
 
   useEffect(() => {
     inp.current.value = data.quantity || 1;

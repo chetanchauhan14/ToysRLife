@@ -18,7 +18,9 @@ const BasketContextProvider = ({ children }) => {
     currentQuantity,
     setCurrentQuantity,
   };
-  return <BasketContext.Provider value={values}>{children}</BasketContext.Provider>;
+  return (
+    <BasketContext.Provider value={values}>{children}</BasketContext.Provider>
+  );
 };
 
 export default BasketContextProvider;

@@ -22,10 +22,22 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/ToysRLife/" onClick={(e) => e.preventDefault()} className={styles.a}>
+              <Link
+                to="/ToysRLife/"
+                onClick={(e) => e.preventDefault()}
+                className={styles.a}
+              >
                 Categories
               </Link>
-              <ul className={styles.subMenu}>{result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} />) : <div>{result.error}</div>}</ul>
+              <ul className={styles.subMenu}>
+                {result.data ? (
+                  result.data.map((cat, index) => (
+                    <CategoryItem data={cat} key={index} />
+                  ))
+                ) : (
+                  <div>{result.error}</div>
+                )}
+              </ul>
             </li>
             <li>
               <Link
@@ -37,7 +49,12 @@ const Header = () => {
                 }}
               >
                 <GetIcon icon="BsCart4" size={25} color="#ffffff" />
-                {basketItems.length > 0 && <span className={styles.basketLength}> {basketItems.length} </span>}
+                {basketItems.length > 0 && (
+                  <span className={styles.basketLength}>
+                    {" "}
+                    {basketItems.length}{" "}
+                  </span>
+                )}
               </Link>
             </li>
           </ul>
@@ -48,4 +65,3 @@ const Header = () => {
 };
 
 export default Header;
-
