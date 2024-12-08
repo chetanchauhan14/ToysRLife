@@ -6,7 +6,7 @@ const CategoryItem = ({ data, setNavIsOpen }) => {
   return (
     <li className={styles.item}>
       <Link
-        to={`/ToysRLife/category/${data}`}
+        to={`category/${data}`}
         className={styles.sub_a}
         onClick={() => setNavIsOpen && setNavIsOpen(false)}
       >
