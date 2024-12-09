@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ToysRLife/static/css/main.597c05f3.css",
-    "main.js": "/ToysRLife/static/js/main.08e217ef.js",
+    "main.css": "/ToysRLife/static/css/main.1ebb53ea.css",
+    "main.js": "/ToysRLife/static/js/main.ae8b772e.js",
     "static/js/27.d5ff8d20.chunk.js": "/ToysRLife/static/js/27.d5ff8d20.chunk.js",
     "static/media/shopBG.jpg": "/ToysRLife/static/media/shopBG.2607f639fdf2a5bd084f.jpg",
     "static/media/empty_cart.svg": "/ToysRLife/static/media/empty_cart.ffa113266186702caa5a87ad687e8ea0.svg",
     "index.html": "/ToysRLife/index.html"
   },
   "entrypoints": [
-    "static/css/main.597c05f3.css",
-    "static/js/main.08e217ef.js"
+    "static/css/main.1ebb53ea.css",
+    "static/js/main.ae8b772e.js"
   ]
 }
