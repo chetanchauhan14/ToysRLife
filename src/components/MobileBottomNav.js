@@ -1,13 +1,15 @@
 import styles from "styles/MobileBottomNav.module.scss";
 import GetIcon from "components/GetIcon";
 import MobileCategories from "components/MobileCategories";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import MobileBasket from "components/MobileBasket";
+import { BasketContext } from "context/BasketContext";
 import clsx from "clsx";
 
 const MobileBottomNav = () => {
   const [currentComponent, setCurrentComponent] = useState("");
   const [navIsOpen, setNavIsOpen] = useState(false);
+  const { basketItems } = useContext(BasketContext);
 
   return (
     <div
@@ -55,6 +57,9 @@ const MobileBottomNav = () => {
           }}
         >
           <GetIcon icon="BsCartFill" size={20} />
+          {basketItems.length > 0 && (
+            <span className={styles.basketLength}>{basketItems.length}</span>
+          )}
         </button>
       </div>
     </div>
