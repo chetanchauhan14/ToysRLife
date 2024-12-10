@@ -26,7 +26,7 @@ export const CARDS = [
     img2: "2_2.jpg",
     img3: "2_3.jpg",
     badge: "Trending",
-    description:"Cartoon Character Hair Band With Wig, Very Comfortable , Lightweight , Suitable For All Age Group. A Product For Gifting Purpose On Any Occasion.
+    description:"Cartoon Character Hair Band With Wig, Very Comfortable , Lightweight , Suitable For All Age Group. A Product For Gifting Purpose On Any Occasion."
   },
   {
     id: 3,
