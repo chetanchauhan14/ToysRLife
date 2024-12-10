@@ -94,7 +94,7 @@ export const CARDS = [
     img2: "8_2.jpg",
     img3: "8_3.jpg",
     badge: "Trending",
-    description:"Beautiful 5D Hair Clips For Girls With Best Acrylic Material Used, they Look Beautiful When Placced on kids Hair ,they Move When You Move, Make Your Girl Feel Special At any Event.
+    description:"Beautiful 5D Hair Clips For Girls With Best Acrylic Material Used, they Look Beautiful When Placced on kids Hair ,they Move When You Move, Make Your Girl Feel Special At any Event."
   },
   {
     id: 9,
@@ -118,7 +118,7 @@ export const CARDS = [
     img2: "10_2.jpg",
     img3: "10_3.jpg",
     badge: "Trending",
-    description:"A Colourful Interactive Learning Book Offers an Engaging Way For Children to Learn Phonetic English alphabets,numbers,fruits,animals,vehicles and More Through vibrant Pages and Sounds.By Pressing Buttons on each page kid can listen to words,songs and stories which enhance their sound recognization ability. It Boost multiple skills and an perfect educational gift to boost early vhildhood development. 
+    description:"A Colourful Interactive Learning Book Offers an Engaging Way For Children to Learn Phonetic English alphabets,numbers,fruits,animals,vehicles and More Through vibrant Pages and Sounds.By Pressing Buttons on each page kid can listen to words,songs and stories which enhance their sound recognization ability. It Boost multiple skills and an perfect educational gift to boost early vhildhood development." 
   },
   {
     id: 11,
@@ -130,7 +130,7 @@ export const CARDS = [
     img2: "11_2.jpg",
     img3: "11_3.jpg",
     badge: "Trending",
-    description:"This 8 Wheel Remote Control Car can be a good partner to play for every child. It moves in multiple direction with the help of multi-channel remote control. The antenna of this remote is long enough to cover a large range.Rechargeable batteries provide this RC car with longer usage and longevity. A poerfulmotor brings speed and good climbing even on sand,grass or mud. Made of good quality material , non toxic , safe for the child to play independently and have fun.
+    description:"This 8 Wheel Remote Control Car can be a good partner to play for every child. It moves in multiple direction with the help of multi-channel remote control. The antenna of this remote is long enough to cover a large range.Rechargeable batteries provide this RC car with longer usage and longevity. A poerfulmotor brings speed and good climbing even on sand,grass or mud. Made of good quality material , non toxic , safe for the child to play independently and have fun."
   },
   {
     id: 12,
@@ -142,7 +142,7 @@ export const CARDS = [
     img2: "12_2.jpg",
     img3: "12_3.jpg",
     badge: "Trending",
-    description:"This Dancing Robot offers an engaging experience with its music , 3D flashing lights , and lively music captivates child's attention and provide an interactive environment.It has Educational features including English learning,Storytelling , nursery rhymes,and song tunes  which makes it a valuable tool for children's cognitive development. It's Obstacle avoidance and Versatile Functionality makes it a good opyion for gifting or having fun for children.
+    description:"This Dancing Robot offers an engaging experience with its music , 3D flashing lights , and lively music captivates child's attention and provide an interactive environment.It has Educational features including English learning,Storytelling , nursery rhymes,and song tunes  which makes it a valuable tool for children's cognitive development. It's Obstacle avoidance and Versatile Functionality makes it a good opyion for gifting or having fun for children."
   },
   {
     id: 13,
@@ -154,7 +154,7 @@ export const CARDS = [
     img2: "13_2.jpg",
     img3: "13_3.jpg",
     badge: "Trending",
-    description:"Transform any room into a stunning cosmuic display with this Astronaut Galaxy Projector.Itv Features vibrant LED lights that projects a mesmerising mix of nebula clouds,galaxies creating a magical ambiance. With its 360-degree rotating head you can adjust the Projection angle to cover entire ceiling or wall. It comes with remote control and timer function to turn it off automatically making it a ideal for kids bedtime oe entertainment. Ideal for kids , teens and adults this Galaxy Projector makes a fantastic gift for any accasion , or to enhance home decor or adding fun to parties.
+    description:"Transform any room into a stunning cosmuic display with this Astronaut Galaxy Projector.Itv Features vibrant LED lights that projects a mesmerising mix of nebula clouds,galaxies creating a magical ambiance. With its 360-degree rotating head you can adjust the Projection angle to cover entire ceiling or wall. It comes with remote control and timer function to turn it off automatically making it a ideal for kids bedtime oe entertainment. Ideal for kids , teens and adults this Galaxy Projector makes a fantastic gift for any accasion , or to enhance home decor or adding fun to parties."
   },
   {
     id: 14,
@@ -166,7 +166,7 @@ export const CARDS = [
     img2: "14_2.jpg",
     img3: "14_3.jpg",
     badge: "Trending",
-    description:"These Colouring Books contains particular theme Drawing sheets and srcatching sheets with Different designs. These colouring kit are very convienient to take out for kids while travelling fun activity or for preschool learning and a educational toy. 
+    description:"These Colouring Books contains particular theme Drawing sheets and srcatching sheets with Different designs. These colouring kit are very convienient to take out for kids while travelling fun activity or for preschool learning and a educational toy."
   },
   {
     id: 15,
@@ -178,7 +178,7 @@ export const CARDS = [
     img2: "15_2.jpg",
     img3: "15_3.jpg",
     badge: "Hot",
-    description:"
+    description:""
   },
   {
     id: 16,
@@ -223,7 +223,7 @@ export const CARDS = [
     img2:"19_2.jpg",
     img3:"19_3.jpg",
     badge:"Hot",
-    description:"Nail Art kit for girl kids with 12 Artificial Nails ,Gum stick,Glitters and 12 variations of accessories. It is completely safe,non-toxic and easy to use for kids.Pick these awesome Nail art set for your Princess or for Gifting to any other girl kid.  
+    description:"Nail Art kit for girl kids with 12 Artificial Nails ,Gum stick,Glitters and 12 variations of accessories. It is completely safe,non-toxic and easy to use for kids.Pick these awesome Nail art set for your Princess or for Gifting to any other girl kid."  
   } 
   ,
   { id:20,
